@@ -7,4 +7,58 @@
 body {
     font-family: Arial;
 }
+section {
+    padding: 50px 300px 0 150px;
+    margin: 0 10%
+}
 
+ header {
+    white-space: nowrap;
+ }
+
+ header div {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    vertical-align: top;  
+ }
+
+
+header aside {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    margin-right: -100%;
+    vertical-align: top;
+}
+
+header div img {
+    float: left;
+    width: 110px;
+    margin: -30px 0 0 -130px;
+    border-radius: 55px;
+}
+
+header div h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+header div p {
+    color: #00aaff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+header aside ul {
+    position: relative;
+    list-style: none;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 25px;
+}
