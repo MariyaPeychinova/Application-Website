@@ -91,8 +91,8 @@ main dl dt {
     margin: 8px 50px 0 -170px;
     box-sizing: border-box;
     text-align: right;
-
-
+    font-size: 11px;
+    color: #999999;
 }
 
 main dl dd {
