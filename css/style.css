@@ -8,13 +8,13 @@ body {
     font-family: Arial;
 }
 
-/*To do*/
-section {
+
+.about {
+
     background-image: url('../images/notepad.jpg');
     background-size: cover;
     background-position: center;
     padding: 50px 300px 0 150px;
-    margin: 0 10%
 }
 
  header {
@@ -37,14 +37,7 @@ header aside {
     vertical-align: top;
 }
 
-header div img {
-    float: left;
-    width: 110px;
-    margin: -30px 0 0 -130px;
-    border-radius: 55px;
-}
-
-header div h1 {
+h2 {
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: normal;
@@ -52,8 +45,8 @@ header div h1 {
     text-overflow: ellipsis;
 }
 
-header div p {
-    color: #00aaff;
+p {
+    color: darkslategray;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -71,7 +64,7 @@ header aside ul {
 main {
     position: relative;
     margin: 0 0 30px -30px;
-    border-left: 1px solid black;
+    border-left: 1px solid darkslategray;
 }
 
 main h2 {
@@ -80,35 +73,26 @@ main h2 {
 }
 
 main dl {
-    position: relative;
+    /*position: relative;*/
     padding: 30px 0 10px 30px;
 }
 
 main dl dt {
-    position: relative;
+    /*position: relative;*/
     float: left;
     width: 120px;
     margin: 8px 50px 0 -170px;
     box-sizing: border-box;
     text-align: right;
     font-size: 11px;
-    color: #999999;
+    color: darkslategray;
 }
 
 main dl dd {
     margin-bottom: 30px;
     font-size: 14px;/*to decide*/
-    color: #999999;
+    color: darkslategray;
 }
 
-main dl dd h3 {
-    font-weight: normal;
-    font-size: 20px;
-    color: black;
-}
 
-main dl dd p {
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #00aaff;
-}
+
