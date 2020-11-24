@@ -19,7 +19,7 @@ body {
     overflow: hidden;
 }
 
-h1 {
+.m {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 300px;
     color: darkslategrey;
@@ -91,7 +91,9 @@ h2 {
     text-overflow: ellipsis;
 }
 
-p {
+.love {
+    font-size: 30px;
+    font-weight: 300;
     color: darkslategray;
     overflow: hidden;
     text-overflow: ellipsis;
