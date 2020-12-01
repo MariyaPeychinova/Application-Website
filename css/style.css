@@ -19,7 +19,7 @@ body {
     overflow: hidden;
 }
 
-.m {
+#m {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 300px;
     color: darkslategrey;
@@ -27,7 +27,7 @@ body {
     z-index: 10;
 }
 
-.video-container {
+#video-container {
     position: absolute;/*makes the video on the whole screen*/
     top: 0;
     left: 0;
@@ -35,7 +35,7 @@ body {
     height: 100%;
 }
 
-.video-container video {
+#video-container video {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -44,7 +44,7 @@ body {
     
 }
 
-.video-container:after {
+#video-container:after {
     content: '';
     position: absolute;
     top: 0;
