@@ -75,13 +75,7 @@ body {
  }
 
 
-header aside {
-    /*position: relative;*/
-    display: inline-block;
-    width: 300px;
-    margin-right: -100%;
-    vertical-align: top;
-}
+
 
 header div h2 {
     margin-bottom: 10px;
@@ -97,6 +91,14 @@ header div h2 {
     color: darkslategray;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+header aside {
+    /*position: relative;*/
+    display: inline-block;
+    width: 300px;
+    margin-right: -100%;
+    vertical-align: top;
 }
 
 header aside ul {
