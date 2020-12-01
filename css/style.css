@@ -83,7 +83,7 @@ header aside {
     vertical-align: top;
 }
 
-h2 {
+header div h2 {
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: normal;
@@ -91,7 +91,7 @@ h2 {
     text-overflow: ellipsis;
 }
 
-.love {
+#love {
     font-size: 30px;
     font-weight: 300;
     color: darkslategray;
