@@ -77,7 +77,7 @@ body {
 
 
 
-header div h2 {
+#name {
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: normal;
