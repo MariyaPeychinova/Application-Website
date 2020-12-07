@@ -56,7 +56,7 @@ body {
 }
 
 .about {
-    width: 100%; /*hides the fixed background on the sides*/
+    width: 100%; /*hides the fixed background on the sides - it doesn't*/
     background-image: url('../images/notepad.jpg');
     background-size: cover;
     background-position: center;
@@ -93,23 +93,9 @@ body {
     text-overflow: ellipsis;
 }
 
-header aside {
-    /*position: relative;*/
-    display: inline-block;
-    width: 300px;
-    margin-right: -100%;
-    vertical-align: top;
-}
 
-header aside ul {
-    position: relative;
-    list-style: none;
-}
 
-.logo {
-    width: 50px;
-    border-radius: 25px;
-}
+
 
 main {
     position: relative;
@@ -144,5 +130,22 @@ main dl dd {
     color: darkslategray;
 }
 
+footer {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
 
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.logo {
+    margin: 0 40px 0 40px;
+    width: 50px;
+    border-radius: 25px;
+}
 
