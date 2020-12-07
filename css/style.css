@@ -76,16 +76,14 @@ body {
     margin-bottom: 10px;
     font-size: 40px;
     font-weight: normal;
-    overflow: hidden;
-    text-overflow: ellipsis;
+   
 }
 
 #love {
     font-size: 30px;
     font-weight: 300;
     color: darkslategray;
-    overflow: hidden;
-    text-overflow: ellipsis;
+   
 }
 
 
