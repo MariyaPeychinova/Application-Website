@@ -27,6 +27,11 @@ body {
     z-index: 10;
 }
 
+.mChanged {
+    color: white;
+    font-size: 350px;
+}
+
 #video-container {
     position: absolute;/*makes the video on the whole screen*/
     top: 0;

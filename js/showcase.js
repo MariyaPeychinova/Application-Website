@@ -1,10 +1,14 @@
-let m = document.querySelector('#m');
-      function changeColor() {
-        m.style.color = 'green';
-      }
-      m.addEventListener('mouseover', changeColor);
+let m = document.querySelector('.m');
 
-      function colorBack() {
-          m.style.color = 'darkslategrey';
-      }
-      m.addEventListener('mouseleave', colorBack);
+    function biggerLighter(event) {
+      event.target.classList.add('mChanged');
+    }
+    m.addEventListener('mouseover', biggerLighter);
+
+    function changeBack(event) {
+      event.target.classList.remove('mChanged');
+    }
+    m.addEventListener('mouseleave', changeBack);
+
+
+     
