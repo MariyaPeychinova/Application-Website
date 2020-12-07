@@ -87,14 +87,6 @@ body {
 
 
 
-
-
-main {
-    position: relative;
-    margin: 0 0 30px -30px;
-    border-left: 1px solid darkslategray;
-}
-
 main h2 {
     margin-left: -19;
 
