@@ -19,7 +19,7 @@ body {
     overflow: hidden;
 }
 
-#m {
+.m {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 300px;
     color: darkslategrey;
@@ -62,15 +62,11 @@ body {
     background-position: center;
 }
 
- header {
+ header {   /*to do mobile*/
     height: 300px;
     padding-left: 13%;
     border: 30px solid darkslategray;
  }
-
- 
-
-
 
 #name {
    padding-top:  40px;
