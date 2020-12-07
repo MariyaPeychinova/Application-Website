@@ -86,10 +86,12 @@ body {
    
 }
 
-
+main .element-container {
+    padding: 50px 0 50px 13%;
+}
 
 main h2 {
-    margin-left: -19;
+    display: inline-block;
 
 }
 
