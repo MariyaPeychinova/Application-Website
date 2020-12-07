@@ -63,7 +63,9 @@ body {
 }
 
  header {
-    white-space: nowrap;
+    height: 300px;
+    padding-left: 13%;
+    border: 30px solid darkslategray;
  }
 
  
