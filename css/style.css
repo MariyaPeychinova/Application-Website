@@ -59,7 +59,7 @@ body {
 
 .nav-links li {
     list-style: none;
-
+    opacity: 0;
 }
 
 .nav-links a {
@@ -72,6 +72,17 @@ body {
 
 .nav-active {
     transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
 
 .m {
