@@ -29,7 +29,7 @@ body {
     background-color: #5D4954;
     z-index: 100;
     display: block;
-    
+
 }
 
 .hamburger div {
@@ -39,6 +39,22 @@ body {
     margin: 5px;
     z-index: 100;
 
+}
+
+.nav-links {
+    position: absolute;
+     left: 0px;
+     top: 0vh;
+     background-color: #5D4954;
+     height: 100vh;
+     width: 23%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     z-index: 50;
+
+     
 }
 
 .m {
