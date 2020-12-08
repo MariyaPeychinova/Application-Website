@@ -22,3 +22,5 @@ function navSlide() {
 }
 
 navSlide();
+
+//looks good on mobile
