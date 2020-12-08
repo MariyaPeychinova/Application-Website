@@ -14,9 +14,10 @@ function navSlide() {
             } else {
                 link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
             }
-        })
+        });
+        //Hamburger Animation
+        hamburger.classList.toggle('toggle');
     }
-console.log(hamburger)
     hamburger.addEventListener('click', openNavLinks);
 }
 
