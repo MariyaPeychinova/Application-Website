@@ -20,6 +20,27 @@ body {
     overflow: hidden;
 }
 
+/*nav*/
+.hamburger {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-height: 5vh;
+    background-color: #5D4954;
+    z-index: 100;
+    display: block;
+    
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+    z-index: 100;
+
+}
+
 .m {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 300px;
