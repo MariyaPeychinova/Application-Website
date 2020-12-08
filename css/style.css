@@ -54,7 +54,11 @@ body {
      justify-content: space-around;
      z-index: 50;
 
-     
+
+}
+
+.nav-links li {
+    list-style: none;
 }
 
 .m {
