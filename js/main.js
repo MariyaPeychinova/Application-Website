@@ -4,7 +4,13 @@ function dragAround() {
     let element = story.cloneNode(true);
     document.body.appendChild(element);
     element.innerText = 'M';
+
+    //for mobile
+    if (screen.width > 768px) { //to check px
     element.style.cssText = 'position: absolute; left: 69%; top: 900px;  color: darkslategrey; line-height: 0.7; font-size: 150px; z-index: 100; cursor: pointer;';
+    } else {
+      element.style.cssText = 'display: none';
+    }
 
     function mouseDown(event) {
         event.preventDefault(); //doesn't select when you click
@@ -29,4 +35,4 @@ function dragAround() {
 
 window.addEventListener('load', dragAround);
 
-//to do mobile, or try
+//to do mobile, or try - done

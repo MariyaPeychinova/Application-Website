@@ -229,5 +229,9 @@ footer ul {
     #love {
         font-size: 20px;
     }
+
+    main h4 {
+        display: none;
+    }
 }
 
