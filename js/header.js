@@ -7,11 +7,11 @@ let love = document.querySelector('#love');
         name.style.color = 'white';
         love.style.color = 'white';
     }
-    header.addEventListener('mouseover', changeBackground);
+    header.addEventListener('pointerover', changeBackground);
 
     function backgroundBack() {
         header.style.backgroundColor = null;
         name.style.color = null;
         love.style.color = null;
     }
-    header.addEventListener('mouseleave', backgroundBack);
+    header.addEventListener('pointerleave', backgroundBack);
