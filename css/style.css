@@ -221,6 +221,32 @@ footer ul {
     border-radius: 25px;
 }
 
+/*page2*/
+.page2 {
+    display: grid;
+    grid-template-columns: 0fr 1fr 2fr;
+}
+
+.page3 {
+    display: grid;
+    grid-template-columns: 0fr 2fr 1fr;
+}
+
+.page4 {
+    display: grid;
+    grid-template-columns: 0fr 1fr 2fr;
+}
+
+.library {
+    height: 100vh;
+}
+
+.aside {
+    height: 100vh;
+}
+
+
+
 @media screen and (max-width: 768px) {
     #name {
         font-size: 30px;
