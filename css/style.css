@@ -223,7 +223,7 @@ footer ul {
 /*pages*/
 .page2 {
     display: grid;
-    grid-template-columns: 0fr 1fr 2fr;
+    grid-template-columns:  1fr 2fr;
 }
 
 .page3 {
@@ -255,8 +255,8 @@ footer ul {
 
 .page4 {
     display: grid;
-    grid-template-columns: minmax(400px, 1fr) 2fr;
-    gap: 1rem;
+    grid-template-columns: minmax(500px, 1fr) 2fr;
+    
 }
 
 .library {
