@@ -5,7 +5,7 @@ function dragAround() {
     document.body.appendChild(element);
     element.innerText = 'M';
 
-    //for mobile - doesn't work
+    //remove for mobile under 500
     if (screen.width > 500) { //to check px
     element.style.cssText = 'position: absolute; left: 69%; top: 900px;  color: darkslategrey; line-height: 0.7; font-size: 150px; z-index: 100; cursor: pointer;';
     } else {
@@ -13,7 +13,7 @@ function dragAround() {
     }
 
     function mouseDown(event) {
-        event.preventDefault(); //doesn't select when you click
+        event.preventDefault(); //to prevent selecting when you click
 
         window.addEventListener('mousemove', mouseMove);
         window.addEventListener('mouseup', mouseUp);
