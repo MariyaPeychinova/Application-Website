@@ -1,6 +1,7 @@
-let header = document.querySelector('header');
+//to prevent overwriting //to decide const or let
+const header = document.querySelector('header');
 const theName = document.querySelector('#name');
-let love = document.querySelector('#love');
+const love = document.querySelector('#love');
 
     function changeBackground() {
         header.style.backgroundColor = 'darkslategrey';
