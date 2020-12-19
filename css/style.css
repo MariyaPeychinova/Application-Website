@@ -201,6 +201,10 @@ main dl dd {
     border-left: 2px solid darkslategray;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 footer {
     display: flex;
     height: 300px;
