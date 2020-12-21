@@ -210,9 +210,11 @@ main dl dd {
 @keyframes defListHide {
     from { 
         transform: scale(1);
+        background-color: darkslategray;
     }
     to {
-        transform: scale(2.5);
+        transform: scale(5);
+        background-color: darkslategray;
     }
 }
 
