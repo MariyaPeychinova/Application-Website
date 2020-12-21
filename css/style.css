@@ -259,6 +259,7 @@ footer ul {
         grid-auto-rows: auto; /*to do*/
     }
 }
+
 .library2 {
     width: 100%;
     height: 100vh;
@@ -270,6 +271,15 @@ footer ul {
     display: grid;
     align-items: center;
     margin: 50px;
+}
+
+@keyframes pageReveille {
+    from {
+        transform: scale(5);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
 
