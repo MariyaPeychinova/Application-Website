@@ -182,6 +182,7 @@ main h4 {
 
 main dl {
     display: flex;
+    height: 300px;
 }
 
 main dl dt {
@@ -199,11 +200,31 @@ main dl dd {
     font-size: 14px;/*to decide*/
     color: darkslategray;
     border-left: 2px solid darkslategray;
+    
 }
 
 .pointer {
     cursor: pointer;
 }
+
+@keyframes defListHide {
+    from { 
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2.5);
+    }
+}
+
+@keyframes textOpacity {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
 
 footer {
     display: flex;
