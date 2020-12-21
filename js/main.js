@@ -15,10 +15,10 @@ function dragAround() {
     function mouseDown(event) {
         event.preventDefault(); //to prevent selecting when you click
 
-        window.addEventListener('mousemove', mouseMove);
-        window.addEventListener('mouseup', mouseUp);
+        window.addEventListener('pointermove', mouseMove);
+        window.addEventListener('pointerup', mouseUp);
     }
-    element.addEventListener('mousedown', mouseDown);
+    element.addEventListener('pointerdown', mouseDown);
 
     function mouseMove(event) {
         about.style.backgroundImage = 'none';
@@ -28,8 +28,8 @@ function dragAround() {
 
       function mouseUp(event) {
         about.style.backgroundImage = null;
-          window.removeEventListener('mousemove', mouseMove);
-          window.removeEventListener('mouseup', mouseUp);
+          window.removeEventListener('pointermove', mouseMove);
+          window.removeEventListener('pointerup', mouseUp);
       }   
 }
 
