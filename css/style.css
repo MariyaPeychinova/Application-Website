@@ -323,12 +323,6 @@ footer ul {
     margin: 50px;
 }
 
-@media screen and (max-width: 1366px) {
-    main h4 {
-        display: none;
-    }
-
-}
 
 @media screen and (max-width: 768px) {
     #name {
@@ -337,6 +331,10 @@ footer ul {
 
     #love {
         font-size: 20px;
-    }  
+    }
+
+    main h4 {
+        display: none;
+    }
 }
 
