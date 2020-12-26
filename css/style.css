@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Gloria Hallelujah', cursive, 'Open Sans';
-    line-height: normal;
+   
 }
 
 .showcase {
@@ -271,7 +271,8 @@ footer ul {
 
     .aside2 {
         display: grid;
-        grid-auto-rows: auto; /*to do*/
+       
+        
     }
 }
 
@@ -285,7 +286,7 @@ footer ul {
     height: 100%;
     display: grid;
     align-items: center;
-    margin: 50px;
+    margin: 0 50px;
 }
 
 @keyframes pageReveille {
