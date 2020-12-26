@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Gloria Hallelujah', cursive, 'Open Sans';
+    line-height: normal;
 }
 
 .showcase {
@@ -190,18 +191,32 @@ main dl dt {
     width: 10%;
     padding-top: 10px;
     justify-content: center;
-    font-size: 11px;
+    font-size: 15px;
     color: darkslategray;
 }
 
 main dl dd {
     width: 90%;
     padding: 8px 100px 10px 35px;
-    font-size: 14px;/*to decide*/
+    font-size: 16px;/*to decide*/
     color: darkslategray;
     border-left: 2px solid darkslategray;
     
 }
+
+.quote {
+    padding: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+blockquote cite {
+    font-weight: normal;
+}
+
+.description {
+    font-family: 'Open Sans'; /* to decide */
+} 
 
 .pointer {
     cursor: pointer;
