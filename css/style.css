@@ -262,6 +262,21 @@ footer ul {
     border-radius: 25px;
 }
 
+@media screen and (max-width: 768px) {
+    #name {
+        font-size: 30px;
+    }
+
+    #love {
+        font-size: 20px;
+    }
+
+    main h4 {
+        display: none;
+    }
+}
+
+
 /*pages*/
 @media screen and (min-width: 1025px) {
     .page2 {
@@ -352,17 +367,4 @@ footer ul {
 }
 
 
-@media screen and (max-width: 768px) {
-    #name {
-        font-size: 30px;
-    }
-
-    #love {
-        font-size: 20px;
-    }
-
-    main h4 {
-        display: none;
-    }
-}
 
