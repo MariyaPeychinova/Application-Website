@@ -200,27 +200,19 @@ main dl dt {
 main dl dd {
     width: 85%;
     padding: 8px 35px 10px 35px;
-    /*font-size: 16px;/*to decide*/
     color: darkslategray;
     border-left: 2px solid darkslategray;
     
 }
 
 .quote {
-    padding: 40px;
-    /*font-size: 20px;*/
+    padding: 50px;
     font-weight: bold;
 }
 
 blockquote cite {
     font-weight: normal;
 }
-/*
-.description {
-    font-family: 'Indie Flower', cursive; /* to decide 
-    font-size: 20px;
-    font-weight: 600;
-} */
 
 .pointer {
     cursor: pointer;
