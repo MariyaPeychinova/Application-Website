@@ -70,7 +70,7 @@ body {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    /*font-size: 15px;*/
+    font-size: 20px;
 }
 
 .nav-active {
@@ -299,6 +299,9 @@ footer ul {
 
 
 /*pages*/
+.pages {
+    font-size: 20px;
+}
 @media screen and (min-width: 1025px) {
     .page2 {
         display: grid;
