@@ -1,7 +1,7 @@
 definitionList = document.querySelectorAll('.linking');
-linkToPage2 = document.querySelector('.part-1');
-linkToPage3 = document.querySelector('.part-2');//to do
-fadingText = document.querySelector('.text');
+linkToPage2 = document.querySelectorAll('.part-2');
+
+fadingText = document.querySelectorAll('.text');
 
 definitionList.forEach(function(definitionList){
 definitionList.addEventListener('pointerover', () => {
@@ -18,15 +18,20 @@ definitionList.addEventListener('pointerleave', () => {
 });
 
      
-
+linkToPage2.forEach(function(linkToPage2) {
 linkToPage2.addEventListener('click', () => {
    
     linkToPage2.style.animation = `defListHide 2.5s ease`;
     
+    fadingText.forEach(function(fadingText) {
     fadingText.style.animation = `textOpacity 2.5s ease`;
+});
     
     setTimeout(function() {
     window.location.href = 'index2.html';
     }, 2500);
     //to do for the other pages
 });
+});
+
+
