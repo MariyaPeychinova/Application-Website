@@ -192,13 +192,13 @@ main dl dt {
     width: 15%;
     padding-top: 10px;
     justify-content: center;
-    /*font-size: 15px;*/
+    font-size: 25px;
     color: darkslategray;
 }
 
 main dl dd {
     width: 85%;
-    padding: 8px 100px 10px 35px;
+    padding: 8px 35px 10px 35px;
     /*font-size: 16px;/*to decide*/
     color: darkslategray;
     border-left: 2px solid darkslategray;
@@ -266,10 +266,20 @@ footer ul {
 }
 
 @media screen and (max-width: 1050px) {
-    main dl {
+    main dl dt {
+        font-size: 15px;
+    }
+
+    main dl dd {
         font-size: 20px;
     }
-    /*
+  
+    main h4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
     #name {
         font-size: 30px;
     }
@@ -277,9 +287,13 @@ footer ul {
     #love {
         font-size: 20px;
     }
-*/
-    main h4 {
-        display: none;
+
+    main dl dt {
+        font-size: 10px;
+    }
+
+    main dl dd {
+        font-size: 15px;
     }
 }
 
