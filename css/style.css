@@ -325,6 +325,10 @@ footer ul {
     margin: 0 50px;
 }
 
+.page2-middle {
+    margin: 50px;
+}
+
 @keyframes pageReveille {
     from {
         transform: scale(5);
