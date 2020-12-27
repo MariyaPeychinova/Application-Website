@@ -3,7 +3,7 @@ function dragAround() {
     let story = document.querySelector('.story');
     let element = story.cloneNode(true);
     document.body.appendChild(element);
-    element.innerText = 'M';
+    element.innerText = 'm';
 
     //remove for mobile under 500
     if (screen.width > 500) { //to check px
