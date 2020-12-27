@@ -180,6 +180,7 @@ main h4 {
     position: absolute; /*to change the relative*/
     left: 80%;
     top: 1000px;
+    font-size: 20px;
 }
 
 main dl {
@@ -218,8 +219,8 @@ blockquote cite {
 .description {
     font-family: 'Indie Flower', cursive; /* to decide 
     font-size: 20px;
-    font-weight: 600;*/
-} 
+    font-weight: 600;
+} */
 
 .pointer {
     cursor: pointer;
@@ -359,6 +360,14 @@ footer ul {
     height: 100vh;
     object-fit: cover;  
 }
+
+.page3-middle {
+    margin: 50px;
+}
+/*
+.list {
+    list-style: none;
+}*/
 
 @media screen and (max-width: 1024px) {
     .page3 {
