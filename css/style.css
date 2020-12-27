@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Indie+Flower&display=swap');
 
 * {
     padding: 0;
@@ -7,8 +7,8 @@
 }
 
 body {
-    font-family: 'Gloria Hallelujah', cursive, 'Open Sans';
-   
+    font-family: 'Indie Flower', 'Gloria Hallelujah', cursive, 'Open Sans';
+    font-size: 30px;
 }
 
 .showcase {
@@ -70,7 +70,7 @@ body {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 15px;
+    /*font-size: 15px;*/
 }
 
 .nav-active {
@@ -166,11 +166,12 @@ body {
    
 }
 
-main .element-container {
+.element-container {
     padding: 50px 0 50px 13%;
+    
 }
 
-main h2 {
+main .story {
     display: inline-block;
 }
 
@@ -191,14 +192,14 @@ main dl dt {
     width: 10%;
     padding-top: 10px;
     justify-content: center;
-    font-size: 15px;
+    /*font-size: 15px;*/
     color: darkslategray;
 }
 
 main dl dd {
     width: 90%;
     padding: 8px 100px 10px 35px;
-    font-size: 16px;/*to decide*/
+    /*font-size: 16px;/*to decide*/
     color: darkslategray;
     border-left: 2px solid darkslategray;
     
@@ -206,16 +207,18 @@ main dl dd {
 
 .quote {
     padding: 60px;
-    font-size: 20px;
+    /*font-size: 20px;*/
     font-weight: bold;
 }
 
 blockquote cite {
     font-weight: normal;
 }
-
+/*
 .description {
-    font-family: 'Open Sans'; /* to decide */
+    font-family: 'Indie Flower', cursive; /* to decide 
+    font-size: 20px;
+    font-weight: 600;*/
 } 
 
 .pointer {
