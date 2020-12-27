@@ -49,3 +49,18 @@ linkToPage3.forEach(function(linkToPage3) {
         }, 2500);
     });
 });
+
+linkToPage4.forEach(function(linkToPage4) {
+    linkToPage4.addEventListener('click', () => {
+
+        linkToPage4.style.animation = `defListHide 2.5s ease`;
+
+        fadingText.forEach(function(fadingText) {
+            fadingText.style.animation = `textOpacity 2.5s ease`;
+        });
+
+        setTimeout(function() {
+            window.location.href = 'index4.html';
+        }, 2500);
+    });
+});
