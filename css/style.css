@@ -317,6 +317,7 @@ footer ul {
 .aside2 {
     height: 100%;
     display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
     align-items: center;
     margin: 20px 50px;
 }
@@ -344,7 +345,7 @@ footer ul {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    margin: 50px 50px 0 50px;
+    margin: 50px;
     }
 
 .library3 {
@@ -354,7 +355,7 @@ footer ul {
 }
 
 .page3-middle {
-    margin: 0 50px 50px 50px;
+    margin: 50px;
 }
 /*
 .list {
@@ -364,6 +365,14 @@ footer ul {
 @media screen and (max-width: 1024px) {
     .page3 {
         flex-direction: column;
+    }
+
+    .aside3 {
+        margin: 70px;
+    }
+
+    .page3-middle {
+        margin: 70px;
     }
 }
 
@@ -375,7 +384,7 @@ footer ul {
 
     .aside4 {
         display: grid;
-        grid-template-rows: 1fr 4fr; /*to do*/
+        grid-template-rows: 1fr 2fr 3fr; /*to do*/
        
         
     }
@@ -390,6 +399,7 @@ footer ul {
 .aside4 {
     height: 100%;
     display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
     align-items: center;
     object-fit: cover;
     margin: 50px;
