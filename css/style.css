@@ -344,7 +344,7 @@ footer ul {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    margin: 50px;
+    margin: 50px 50px 0 50px;
     }
 
 .library3 {
@@ -354,7 +354,7 @@ footer ul {
 }
 
 .page3-middle {
-    margin: 50px;
+    margin: 0 50px 50px 50px;
 }
 /*
 .list {
