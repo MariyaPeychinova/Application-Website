@@ -375,7 +375,7 @@ footer ul {
 
     .aside4 {
         display: grid;
-        grid-template-rows: 1fr 6fr; /*to do*/
+        grid-template-rows: 1fr 4fr; /*to do*/
        
         
     }
@@ -397,6 +397,10 @@ footer ul {
 
 .page4-middle {
     margin: 50px;
+}
+
+.quote4 {
+
 }
 
 
