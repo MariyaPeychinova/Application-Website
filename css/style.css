@@ -302,8 +302,9 @@ footer ul {
     }
 
     .aside2 {
+        height: 100vh;
         display: grid;
-       
+        grid-template-rows: 1fr 2fr 3fr;
         
     }
 }
@@ -315,7 +316,7 @@ footer ul {
 }
 
 .aside2 {
-    height: 100%;
+    height: 100vh;
     display: grid;
     grid-template-rows: 1fr 2fr 3fr;
     align-items: center;
@@ -384,7 +385,7 @@ footer ul {
 
     .aside4 {
         display: grid;
-        grid-template-rows: 1fr 2fr 3fr; /*to do*/
+        grid-template-rows: 1fr 1fr 3fr; /*to do*/
        
         
     }
@@ -402,7 +403,7 @@ footer ul {
     grid-template-rows: 1fr 2fr 3fr;
     align-items: center;
     object-fit: cover;
-    margin: 50px;
+    margin: 0 50px;
 }
 
 .page4-middle {
