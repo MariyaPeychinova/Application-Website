@@ -302,9 +302,7 @@ footer ul {
     }
 
     .aside2 {
-        height: 100vh;
-        display: grid;
-        grid-template-rows: 1fr 2fr 3fr;
+        height: 100vh;  
         
     }
 }
@@ -316,9 +314,7 @@ footer ul {
 }
 
 .aside2 {
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 1fr 2fr 3fr;
+    height: 100%;
     align-items: center;
     margin: 20px 50px;
 }
