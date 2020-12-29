@@ -370,11 +370,17 @@ footer ul {
 .page3-middle {
     margin: 50px;
 }
-/*
-.list {
-    list-style: none;
-}*/
 
+@media screen and (min-width: 1300px) {
+    .aside3 {
+        margin-top: 70px;
+        font-size: 23px;
+    }
+
+    .page3-middle {
+        font-size: 23px;
+    }
+}
 @media screen and (max-width: 1024px) {
     .page3 {
         flex-direction: column;
