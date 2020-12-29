@@ -295,6 +295,22 @@ footer ul {
 .pages {
     font-size: 20px;
 }
+
+@media screen and (min-width: 1300px) {
+    .page2 {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .aside2 {
+        height: 100vh;  
+        font-size: 29px;
+    }
+
+    .page2-middle {
+        font-size: 25px;
+    }
+}
 @media screen and (min-width: 1025px) {
     .page2 {
         display: grid;
