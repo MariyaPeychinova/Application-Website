@@ -141,13 +141,13 @@ body {
 }
 
 .about {
-    width: 100%; /*hides the fixed background on the sides - it doesn't*/
+    width: 100%; 
     background-image: url('../images/notepad.jpg');
     background-size: cover;
     background-position: left;
 }
 
- header {   /*to do mobile - done*/
+ header {   
     height: 300px;
     padding-left: 13%;
     border: 30px solid darkslategray;
@@ -177,7 +177,7 @@ main .story {
 
 main h4 {
     display: inline-block;
-    position: absolute; /*to change the relative*/
+    position: absolute; 
     left: 80%;
     top: 1000px;
     font-size: 20px;
@@ -291,12 +291,21 @@ footer ul {
 }
 
 
-/*pages-I decided to chalenge myself 
-and styled the 3 pages differently*/
+/*pages*/
+@keyframes pageReveille {
+    from {
+        transform: scale(5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 .pages {
     font-size: 20px;
 }
 
+/*page2*/
 @media screen and (min-width: 1300px) {
     .page2 {
         display: grid;
@@ -340,16 +349,7 @@ and styled the 3 pages differently*/
     margin: 50px;
 }
 
-@keyframes pageReveille {
-    from {
-        transform: scale(5);
-    }
-    to {
-        transform: scale(1);
-    }
-}
-
-
+/*page3*/
 .page3 {
     display: flex;   
 }
@@ -396,6 +396,7 @@ and styled the 3 pages differently*/
     }
 }
 
+/*page4*/
 @media screen and (min-width: 1300px) {
     .page4 {
         display: grid;
