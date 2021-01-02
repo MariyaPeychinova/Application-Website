@@ -309,7 +309,7 @@ and styled the 3 pages differently*/
     }
 
     .page2-middle {
-        font-size: 25px;
+        font-size: 29px;
     }
 }
 @media screen and (min-width: 1025px) {
@@ -440,9 +440,6 @@ and styled the 3 pages differently*/
     margin: 50px;
 }
 
-.quote4 {
-
-}
 
 
 
