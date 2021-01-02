@@ -396,6 +396,22 @@ and styled the 3 pages differently*/
     }
 }
 
+@media screen and (min-width: 1300px) {
+    .page4 {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .aside4 {
+        height: 100vh;
+        font-size: 29px;
+    }
+
+    .page4-middle {
+        font-size: 29px;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     .page4 {
         display: grid;
@@ -403,9 +419,7 @@ and styled the 3 pages differently*/
     }
 
     .aside4 {
-        display: grid;
-        grid-template-rows: 1fr 1fr 3fr; /*to do*/
-       
+        height: 100vh;
         
     }
 }
@@ -418,11 +432,8 @@ and styled the 3 pages differently*/
 
 .aside4 {
     height: 100%;
-    display: grid;
-    grid-template-rows: 1fr 2fr 3fr;
     align-items: center;
-    object-fit: cover;
-    margin: 0 50px;
+    margin: 20px 50px;
 }
 
 .page4-middle {
