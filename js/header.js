@@ -1,4 +1,3 @@
-//to prevent overwriting //to decide const or let
 const header = document.querySelector('header');
 const theName = document.querySelector('#name');
 const love = document.querySelector('#love');

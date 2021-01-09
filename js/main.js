@@ -5,8 +5,8 @@ function dragAround() {
     document.body.appendChild(element);
     element.innerText = 'm';
 
-    //remove for mobile under 500
-    if (screen.width > 1050) { //to check px
+    //remove for mobile under 1050
+    if (screen.width > 1050) { 
     element.style.cssText = 'position: absolute; left: 69%; top: 900px;  color: darkslategrey; line-height: 0.7; font-size: 150px; z-index: 100; cursor: pointer;';
     } else {
       element.style.cssText = 'display: none';
@@ -35,4 +35,3 @@ function dragAround() {
 
 window.addEventListener('load', dragAround);
 
-//to do mobile, or try - done -doesn't work

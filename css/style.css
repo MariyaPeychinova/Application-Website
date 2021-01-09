@@ -125,8 +125,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: -20;
-    
+    z-index: -20; 
 }
 
 #video-container:after {
@@ -156,19 +155,16 @@ body {
 #name {
     padding-top:  40px;
     font-size: 40px;
-    font-weight: normal;
-   
+    font-weight: normal; 
 }
 
 #love {
     font-size: 30px;
-    color: darkslategray;
-   
+    color: darkslategray; 
 }
 
 .element-container {
-    padding: 50px 0 50px 13%;
-    
+    padding: 50px 0 50px 13%;  
 }
 
 main .story {
@@ -201,8 +197,7 @@ main dl dd {
     width: 85%;
     padding: 8px 35px 10px 35px;
     color: darkslategray;
-    border-left: 2px solid darkslategray;
-    
+    border-left: 2px solid darkslategray;  
 }
 
 .quote {
@@ -237,7 +232,6 @@ blockquote cite {
         opacity: 0;
     }
 }
-
 
 footer {
     display: flex;
@@ -290,7 +284,6 @@ footer ul {
     }
 }
 
-
 /*pages*/
 @keyframes pageReveille {
     from {
@@ -328,8 +321,7 @@ footer ul {
     }
 
     .aside2 {
-        height: 100vh;  
-        
+        height: 100vh;     
     }
 }
 
@@ -382,6 +374,7 @@ footer ul {
         font-size: 23px;
     }
 }
+
 @media screen and (max-width: 1024px) {
     .page3 {
         flex-direction: column;
@@ -420,8 +413,7 @@ footer ul {
     }
 
     .aside4 {
-        height: 100vh;
-        
+        height: 100vh; 
     }
 }
 
