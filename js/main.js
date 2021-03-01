@@ -9,7 +9,7 @@ function dragAround() {
     if (screen.width > 1050) { 
     element.style.cssText = 'position: absolute; left: 69%; top: 900px;  color: darkslategrey; line-height: 0.7; font-size: 150px; z-index: 100; cursor: pointer;';
     } else {
-      element.style.cssText = 'display: none';
+      element.style.cssText = 'display: none;';
     }
 
     function mouseDown(event) {
